@@ -1,0 +1,40 @@
+ body { 
+    display:flex;
+    justify-content: center;
+    
+        background: linear-gradient(132deg, green, #16bbc1);
+           background-size: 400% 400%;
+            animation: BackgroundGradient 10s ease infinite;
+             
+ }
+            @keyframes BackgroundGradient {
+                0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}
+               
+}
+.formu{
+    margin-top: 161px;
+    padding: 10px;
+    margin-left: -208px;
+}
+.button{
+    display: flex;
+      flex-direction:row;    
+}
+.button .submit {
+    width: 99px;
+    height: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 35px;
+}
+.button  .retour {
+    width: 99px;
+    height: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 35px;
+}
